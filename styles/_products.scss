@@ -1,0 +1,33 @@
+.section-header {
+  margin-top: 40px;
+}
+.section-header h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.section-header p {
+  font-size: 20px;
+}
+.card {
+  @include tablet {
+    margin-top: 10px;
+  }
+}
+.card-body .img-area img {
+  width: 100%;
+  height: 100%;
+}
+.card-body h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-body p {
+  font-size: 16px;
+}
+.card-body button {
+  background-color: #c8b7c9;
+}
+.card-body button:hover {
+  background-color: #655766;
+  color: #fff;
+}
